@@ -22,7 +22,7 @@ int main() {
     cout<<endl<<"Max element: "<<max<<endl;
     cout<<"Odd numbers: ";
     for (int i = 0; i < n; i++){
-        if (arr[i] % 2 == 1){
+        if (arr[i] % 2 == 0){
             cout<<arr[i]<<" ";
             if (arr[i] < min)
                 min = arr[i];
